@@ -2,9 +2,9 @@
 
 export const weddingData = {
   couple: {
-    bride: "Melinda",
     groom: "Mynor",
-    displayName: "Melinda & Mynor",
+    bride: "Melinda",
+    displayName: "Mynor & Melinda",
     initials: "M & M",
   },
 
@@ -33,16 +33,16 @@ export const weddingData = {
 
   messages: {
     opening:
-      "Con la bendición de Dios, comienza el capítulo más hermoso de nuestra historia.",
+      "Con mucha alegría queremos compartir contigo una noticia muy especial. ¡Ha llegado el momento de celebrar nuestro amor y comenzar juntos una nueva etapa!",
 
     invitation:
-      "Queremos compartir contigo la felicidad de nuestra unión y celebrar juntos este momento tan especial.",
+      "Te compartimos con mucho cariño nuestra invitación, donde encontrarás todos los detalles de nuestra boda. Esperamos contar contigo para hacer de este momento un recuerdo inolvidable.",
 
     countdown:
       "Con la gracia de Dios, cada día nos acerca al momento de unir nuestras vidas para siempre.",
 
     confirmation:
-      "Tu presencia hará que nuestro día sea todavía más especial.",
+      "Esperamos contar contigo para hacer de este momento un recuerdo inolvidable. Con mucho cariño, Mynor y Meli ❤️",
   },
 
   verse: {
@@ -69,22 +69,28 @@ export const weddingData = {
     whatsappNumber: "50248143247",
     deadline: "20 de noviembre de 2026",
     defaultMessage:
-      "Hola, deseo confirmar mi asistencia a la boda de Melinda y Mynor.",
+      "Hola, deseo confirmar mi asistencia a la boda de Mynor y Melinda.",
   },
 
   media: {
-    heroImage: `${baseUrl}images/portada.jpg`,
-    countdownImage: `${baseUrl}images/conteo.jpg`,
-    locationImage: `${baseUrl}images/anillos.jpg`,
+    heroImage: `${baseUrl}images/6.jpeg`,
+    countdownImage: `${baseUrl}images/2.jpeg`,
+    locationImage: `${baseUrl}images/10.jpeg`,
 
     gallery: [
-      `${baseUrl}images/foto-1.jpg`,
-      `${baseUrl}images/foto-2.jpg`,
-      `${baseUrl}images/foto-3.jpg`,
-      `${baseUrl}images/foto-4.jpg`,
+      `${baseUrl}images/1.jpeg`,
+      `${baseUrl}images/2.jpeg`,
+      `${baseUrl}images/3.jpeg`,
+      `${baseUrl}images/4.jpeg`,
+      `${baseUrl}images/5.jpeg`,
+      `${baseUrl}images/7.jpeg`,
+      `${baseUrl}images/8.jpeg`,
+      `${baseUrl}images/9.jpeg`,
+      `${baseUrl}images/10.jpeg`,
+      `${baseUrl}images/11.jpeg`,
     ],
 
-    music: `${baseUrl}audio/hasta-mi-final.mp3`  ,
+    music: `${baseUrl}audio/hasta-mi-final.mp3`,
   },
 
   features: {

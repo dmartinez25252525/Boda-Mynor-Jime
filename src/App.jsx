@@ -120,7 +120,7 @@ function App() {
             href="#inicio"
             className="brand-logo notranslate"
             translate="no"
-            aria-label="Melinda y Mynor"
+            aria-label="Mynor y Melinda"
           >
             <span aria-hidden="true">M</span>
             <i
@@ -150,7 +150,15 @@ function App() {
       </Navbar>
 
       <main>
-        <section className="hero-section" id="inicio">
+        <section
+          className="hero-section"
+          id="inicio"
+          style={{
+            backgroundImage: `linear-gradient(rgba(18, 30, 23, 0.72), rgba(18, 30, 23, 0.78)), url(${weddingData.media.heroImage})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
           <div className="hero-decoration hero-decoration-one"></div>
           <div className="hero-decoration hero-decoration-two"></div>
 
@@ -167,9 +175,7 @@ function App() {
                   </div>
 
                   <h1>
-                    <span>{weddingData.couple.bride}</span>
-                    <small>&</small>
-                    <span>{weddingData.couple.groom}</span>
+                    <span>{weddingData.couple.groom}</span><small>&</small><span>{weddingData.couple.bride}</span>
                   </h1>
 
                   <p className="hero-message">
@@ -489,6 +495,48 @@ function App() {
             </Row>
           </Container>
         </section>
+        {weddingData.features.gallery && weddingData.media.gallery && (
+          <section className="section gallery-section" id="galeria">
+            <Container>
+              <div className="section-header text-center" data-aos="fade-up">
+                <span className="section-kicker">Nuestros Momentos</span>
+                <h2 className="section-title">Galería de Fotos</h2>
+                <div className="section-divider">
+                  <i className="bi bi-heart-fill"></i>
+                </div>
+              </div>
+              <Row className="g-3 justify-content-center">
+                {weddingData.media.gallery.map((imgUrl, index) => (
+                  <Col key={index} xs={6} md={4} lg={3} data-aos="zoom-in" data-aos-delay={index * 50}>
+                    <div
+                      style={{
+                        borderRadius: "14px",
+                        overflow: "hidden",
+                        boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
+                        aspectRatio: "1 / 1",
+                        background: "#1c2c22",
+                      }}
+                    >
+                      <img
+                        src={imgUrl}
+                        alt={`Momento ${index + 1}`}
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                          display: "block",
+                          transition: "transform 0.4s ease",
+                        }}
+                        onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.06)")}
+                        onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
+                      />
+                    </div>
+                  </Col>
+                ))}
+              </Row>
+            </Container>
+          </section>
+        )}
       </main>
 
       <footer className="wedding-footer">
@@ -496,7 +544,7 @@ function App() {
           <div
             className="footer-monogram notranslate"
             translate="no"
-            aria-label="Monograma de Melinda y Mynor"
+            aria-label="Monograma de Mynor y Melinda"
           >
             <span>
               {weddingData.couple.bride.charAt(0)}

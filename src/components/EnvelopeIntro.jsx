@@ -35,10 +35,10 @@ function handleOpen() {
         </p>
 
         <h1>
-          Melinda
-          <span>&</span>
-          Mynor
-        </h1>
+            Mynor
+            <span>&</span>
+            Melinda
+          </h1>
 
         <p className="intro-message">
           Con mucha alegría queremos compartir contigo
