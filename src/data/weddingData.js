@@ -90,7 +90,7 @@ export const weddingData = {
       `${baseUrl}images/11.jpeg`,
     ],
 
-    music: `${baseUrl}audio/hasta-mi-final.mp3`,
+    music: `${baseUrl}audio/hasta-mi-final.mp3?v=20261008`,
   },
 
   features: {
