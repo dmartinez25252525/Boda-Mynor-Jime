@@ -46,8 +46,8 @@ export const weddingData = {
 
   verse: {
     text:
-      "Y sobre todas estas cosas vestíos de amor, que es el vínculo perfecto.",
-    reference: "Colosenses 3:14",
+      "“Mejores son dos que uno.”",
+    reference: "Eclesiastés 4:9 ❤️",
   },
 
   gifts: {
