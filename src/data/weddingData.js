@@ -9,11 +9,11 @@ export const weddingData = {
   },
 
   event: {
-    dateISO: "2026-12-05T16:30:00-06:00",
-    dateLabel: "05 de diciembre de 2026",
+    dateISO: "2026-12-05T16:00:00-06:00",
+    dateLabel: "Sábado 05 de diciembre de 2026 - 4:00 p. m.",
     shortDate: "05 · 12 · 2026",
     dayLabel: "Sábado",
-    timeLabel: "4:30 p. m.",
+    timeLabel: "4:00 p. m.",
     timezone: "America/Guatemala",
   },
 
@@ -35,8 +35,7 @@ export const weddingData = {
     opening:
       "Con mucha alegría queremos compartir contigo una noticia muy especial. ¡Ha llegado el momento de celebrar nuestro amor y comenzar juntos una nueva etapa!",
 
-    invitation:
-      "Te compartimos con mucho cariño nuestra invitación, donde encontrarás todos los detalles de nuestra boda. Esperamos contar contigo para hacer de este momento un recuerdo inolvidable.",
+    invitation: "Nuestro amor nos trae hasta aquí, y nuestro sueño es celebrar este nuevo comienzo junto a las personas que forman parte de nuestra historia. 🤍\n\n¡Nos encantará que seas parte de este día inolvidable!",
 
     countdown:
       "Con la gracia de Dios, cada día nos acerca al momento de unir nuestras vidas para siempre.",
@@ -54,7 +53,7 @@ export const weddingData = {
   gifts: {
     title: "Lluvia de sobres",
     description:
-      "Tu presencia es nuestro mejor regalo, pero si está en tus posibilidades y deseas hacernos un presente, te dejamos esta opción.",
+      "Su presencia es el regalo más valioso para nosotros.\n\nSi desean acompañarnos con un detalle para nuestro nuevo hogar, agradeceremos de corazón su aporte en efectivo dentro de un sobre.\n\nGracias por ser parte del inicio de nuestra historia. ✨",
   },
 
   dressCode: {
