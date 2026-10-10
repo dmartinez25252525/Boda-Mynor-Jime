@@ -10,7 +10,7 @@ export const weddingData = {
 
   event: {
     dateISO: "2026-12-05T16:00:00-06:00",
-    dateLabel: "Sábado 05 de diciembre de 2026 - 4:00 p. m.",
+    dateLabel: "Sábado 05 de diciembre de 2026",
     shortDate: "05 · 12 · 2026",
     dayLabel: "Sábado",
     timeLabel: "4:00 p. m.",
@@ -32,8 +32,7 @@ export const weddingData = {
   },
 
   messages: {
-    opening:
-      "Con mucha alegría queremos compartir contigo una noticia muy especial. ¡Ha llegado el momento de celebrar nuestro amor y comenzar juntos una nueva etapa!",
+    opening: "Nuestros caminos se unieron y hoy elegimos caminar juntos para siempre.\n\nCon amor e ilusión, queremos compartir contigo el comienzo de nuestra nueva historia. 💍✨",
 
     invitation: "Nuestro amor nos trae hasta aquí, y nuestro sueño es celebrar este nuevo comienzo junto a las personas que forman parte de nuestra historia. 🤍\n\n¡Nos encantará que seas parte de este día inolvidable!",
 
